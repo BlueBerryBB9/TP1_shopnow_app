@@ -1,0 +1,204 @@
+npm notice run shopnow-js@1.0.0 test
+npm notice run mocha tests/e2e/*.spec.js
+
+
+  Auth - Connection Refused (Login)
+
+DevTools listening on ws://127.0.0.1:53480/devtools/browser/12f92e2f-d442-4c01-882d-a18d2bafe923
+    ✔ shows an error message when credentials are invalid (221ms)
+
+  E2E - Login
+
+DevTools listening on ws://127.0.0.1:54900/devtools/browser/f2364fbc-fabe-4832-bea8-f2d9ac6e045b
+    ✔ opens the login form (120ms)
+    ✔ logs in a user and shows greeting (138ms)
+    ✔ check on user insterface (341ms)
+
+  Auth - Register New User
+
+DevTools listening on ws://127.0.0.1:54326/devtools/browser/9f0ca927-6a12-47a6-aa14-06e3ab5bb830
+    ✔ registers a new unique user and lands on login (1021ms)
+
+  Cart - Add Product From Detail Page
+
+DevTools listening on ws://127.0.0.1:51727/devtools/browser/62093c71-e61e-4935-9f79-ba0ad5963754
+    ✔ views a product detail and adds it to the cart (1231ms)
+
+  Cart - Add Product From Listing
+
+DevTools listening on ws://127.0.0.1:51532/devtools/browser/18f9c237-1648-42da-a53f-78dba4bfdea5
+    ✔ adds a product from the listing to the cart (1155ms)
+
+  Cart - Clear Cart Shows Empty State
+
+DevTools listening on ws://127.0.0.1:57675/devtools/browser/240e3e9a-3c17-4580-a932-d906383abac1
+    ✔ clears the cart and shows the empty state (1383ms)
+
+  Cart - Persistence
+
+DevTools listening on ws://127.0.0.1:56204/devtools/browser/eb934d8f-af92-4f90-9c2e-f0a11f16db5d
+[10016:9412:0917/160546.618:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[10016:9412:0917/160546.625:ERROR:google_apis\gcm\engine\mcs_client.cc:702]   Error code: 401  Error message: Authentication Failed: wrong_secret
+[10016:9412:0917/160546.626:ERROR:google_apis\gcm\engine\mcs_client.cc:704] Failed to log in to GCM, resetting connection.
+    ✔ retains cart items after page reload (2792ms)
+
+  Cart - Remove Item
+
+DevTools listening on ws://127.0.0.1:56985/devtools/browser/ba443cb3-01ec-4a15-b5e0-27467c34c3eb
+    ✔ removes an item and updates the cart (2786ms)
+
+  Cart - Update Quantity
+
+DevTools listening on ws://127.0.0.1:59695/devtools/browser/43890ed0-1f07-458b-a37c-3addce5ac1fc
+[26140:14384:0917/160556.157:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[26140:14384:0917/160556.213:ERROR:google_apis\gcm\engine\mcs_client.cc:702]   Error code: 401  Error message: Authentication Failed: wrong_secret
+[26140:14384:0917/160556.213:ERROR:google_apis\gcm\engine\mcs_client.cc:704] Failed to log in to GCM, resetting connection.
+    ✔ increasing quantity updates the displayed quantity (1792ms)
+
+  E2E - Full User Journey
+
+DevTools listening on ws://127.0.0.1:57135/devtools/browser/f3f30402-cf11-4f56-b8b5-40292321a3fc
+[5484:17896:0917/160559.782:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+    ✔ registers, logs in, buys, modifies quantity and empties cart (2672ms)
+
+  Final Challenge — Client end-to-end journey
+
+DevTools listening on ws://127.0.0.1:63968/devtools/browser/b2afd81c-26e3-45d3-9080-c8ef22aa716c
+    ✔ logs in, selects a product, adds to cart, sets quantity to 2, verifies total, then removes it (1948ms)
+
+  Multi-page flow — Add multiple products and verify cart
+
+DevTools listening on ws://127.0.0.1:53409/devtools/browser/21dce19f-8d3d-48b6-938d-e9cb84050ab3
+    ✔ navigates, adds two different products, and updates the cart (1301ms)
+
+  E2E - Home page
+
+DevTools listening on ws://127.0.0.1:57637/devtools/browser/92d8e794-4261-45a2-b469-41fc66a043d4
+    ✔ loads the home page
+    ✔ has the correct title
+
+  E2E - Navigation to Products
+
+DevTools listening on ws://127.0.0.1:52046/devtools/browser/9729b095-97e8-49fc-976f-a1ce328bdb8d
+    ✔ navigates to products page (118ms)
+    ✔ lists products on the products page
+
+  Product - Explicit Waits For Product Detail
+
+DevTools listening on ws://127.0.0.1:50778/devtools/browser/84bfd80d-a667-4b7d-add7-def0a832c009
+    ✔ waits explicitly for product detail name to load and be non-empty (119ms)
+
+  E2E - Products details
+
+DevTools listening on ws://127.0.0.1:54876/devtools/browser/5c46e968-f86d-4692-ac6c-3de0d27bd391
+    ✔ navigates to products page (603ms)
+    ✔ opens product details page (1063ms)
+    ✔ shows product name and price on details page
+
+
+  22 passing (37s)
+
+
+alyxi@Loliltu MINGW64 ~/Desktop/a/Code/CESI/test_strategies/shopnow-app (main)
+$ npm test
+npm notice run shopnow-js@1.0.0 test
+npm notice run mocha tests/e2e/*.spec.js
+
+
+  Auth - Connection Refused (Login)
+
+DevTools listening on ws://127.0.0.1:53298/devtools/browser/8c15734c-271a-4ee4-9b6d-cf9e95a75d48
+    ✔ shows an error message when credentials are invalid (245ms)
+
+  E2E - Login
+
+DevTools listening on ws://127.0.0.1:52465/devtools/browser/84433e8f-efb9-4f71-81f2-3eb719538b04
+    ✔ opens the login form (123ms)
+    ✔ logs in a user and shows greeting (156ms)
+    ✔ check on user insterface (335ms)
+
+  Auth - Register New User
+
+DevTools listening on ws://127.0.0.1:52954/devtools/browser/d919f526-ff23-4fa9-bae6-02db0277c38f
+    ✔ registers a new unique user and lands on login (984ms)
+
+  Cart - Add Product From Detail Page
+
+DevTools listening on ws://127.0.0.1:51654/devtools/browser/8cd28bf0-a01f-4c18-8692-20e182bb80ca
+    ✔ views a product detail and adds it to the cart (1252ms)
+
+  Cart - Add Product From Listing
+
+DevTools listening on ws://127.0.0.1:53045/devtools/browser/44c2fb4c-a2d8-4cf6-b695-56c2d6941f92
+    ✔ adds a product from the listing to the cart (1142ms)
+
+  Cart - Clear Cart Shows Empty State
+
+DevTools listening on ws://127.0.0.1:54665/devtools/browser/56ab118f-40ef-4304-baf5-ff7e993782b1
+    ✔ clears the cart and shows the empty state (1284ms)
+
+  Cart - Persistence
+
+DevTools listening on ws://127.0.0.1:63084/devtools/browser/6de9c103-f822-4ea7-9c1d-7d9f7458d3f8
+[21276:21272:0917/161604.885:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[600:15708:0917/161606.102:ERROR:net\socket\ssl_client_socket_impl.cc:962] handshake failed; returned -1, SSL error code 1, net_error -100
+[600:15708:0917/161606.181:ERROR:net\socket\ssl_client_socket_impl.cc:962] handshake failed; returned -1, SSL error code 1, net_error -100
+    ✔ retains cart items after page reload (2748ms)
+
+  Cart - Remove Item
+
+DevTools listening on ws://127.0.0.1:50251/devtools/browser/c688556f-9be9-42c4-8395-cedd81797d8e
+[6080:7568:0917/161609.386:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+[6080:7568:0917/161609.548:ERROR:google_apis\gcm\engine\mcs_client.cc:702]   Error code: 401  Error message: Authentication Failed: wrong_secret
+[6080:7568:0917/161609.549:ERROR:google_apis\gcm\engine\mcs_client.cc:704] Failed to log in to GCM, resetting connection.
+[19140:18972:0917/161610.595:ERROR:net\socket\ssl_client_socket_impl.cc:962] handshake failed; returned -1, SSL error code 1, net_error -100
+[19140:18972:0917/161610.604:ERROR:net\socket\ssl_client_socket_impl.cc:962] handshake failed; returned -1, SSL error code 1, net_error -100
+    ✔ removes an item and updates the cart (2836ms)
+
+  Cart - Update Quantity
+
+DevTools listening on ws://127.0.0.1:61547/devtools/browser/25421e93-2f06-4d87-b02b-8edf897671a8
+    ✔ increasing quantity updates the displayed quantity (1716ms)
+
+  E2E - Full User Journey
+
+DevTools listening on ws://127.0.0.1:55687/devtools/browser/ba1e236b-690e-4922-a5a7-53c2a2731450
+[11636:25180:0917/161617.604:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+    ✔ registers, logs in, buys, modifies quantity and empties cart (2648ms)
+
+  Final Challenge — Client end-to-end journey
+
+DevTools listening on ws://127.0.0.1:59447/devtools/browser/b940c3a5-8852-4e9e-90fa-1e67ac05d7ba
+    ✔ logs in, selects a product, adds to cart, sets quantity to 2, verifies total, then removes it (1999ms)
+
+  Multi-page flow — Add multiple products and verify cart
+
+DevTools listening on ws://127.0.0.1:60402/devtools/browser/82d3a49e-6384-4933-8909-1d2627713290
+    ✔ navigates, adds two different products, and updates the cart (1321ms)
+
+  E2E - Home page
+
+DevTools listening on ws://127.0.0.1:62650/devtools/browser/98b3e6a1-b129-40cd-be11-e6005c439544
+    ✔ loads the home page
+    ✔ has the correct title
+
+  E2E - Navigation to Products
+
+DevTools listening on ws://127.0.0.1:55936/devtools/browser/5e92a56b-cde3-4abe-abd7-ff3916392c4b
+    ✔ navigates to products page (123ms)
+    ✔ lists products on the products page
+
+  Product - Explicit Waits For Product Detail
+
+DevTools listening on ws://127.0.0.1:51036/devtools/browser/417cb9ad-2dfa-47d1-b9d7-419eb1f361f8
+    ✔ waits explicitly for product detail name to load and be non-empty (117ms)
+
+  E2E - Products details
+
+DevTools listening on ws://127.0.0.1:59446/devtools/browser/7c75a1d0-7583-431e-8eca-457c5355aa81
+    ✔ navigates to products page (611ms)
+    ✔ opens product details page (1062ms)
+    ✔ shows product name and price on details page
+
+
+  22 passing (40s)
